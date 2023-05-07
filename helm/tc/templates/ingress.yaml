@@ -14,4 +14,3 @@ spec:
             name: tc_svc
             port: 
               number: {{ .Values.service.clusterIPPort }}
-          namespace: {{ .Values.deployment.namespace }}
